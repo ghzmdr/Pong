@@ -1,0 +1,1295 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"reset()	void"
+			],
+			[
+				"SDLK_F",
+				"SDLK_F12	enum <anonymous>"
+			],
+			[
+				"SDL_Qui",
+				"SDL_QuitSubSystem(Uint32 flags)	void"
+			],
+			[
+				"Mix_P",
+				"Mix_PlayChannel(channel, chunk, loops)	macro"
+			],
+			[
+				"Mix_pla",
+				"Mix_PlayChannel(channel, chunk, loops)	macro"
+			],
+			[
+				"Mix",
+				"Mix_FreeChunk(Mix_Chunk *chunk)	void"
+			],
+			[
+				"al",
+				"alreadySelected	bool"
+			],
+			[
+				"get",
+				"getSelected()	bool"
+			],
+			[
+				"Mixchunk",
+				"Mix_FreeChunk(Mix_Chunk *chunk)	void"
+			],
+			[
+				"bu",
+				"buttonPress	Mix_Chunk *"
+			],
+			[
+				"MIXINIT",
+				"MIX_INIT_OGG	MIX_InitFlags"
+			],
+			[
+				"lSDL2",
+				"lSDL2_ttf"
+			],
+			[
+				"SDL_GetMo",
+				"SDL_GetMouseState(int *x, int *y)	Uint32"
+			],
+			[
+				"me",
+				"message	SDL_Texture *"
+			],
+			[
+				"Di",
+				"Difficulty	enum"
+			],
+			[
+				"SDL_MOUI",
+				"SDL_MOUSEMOTION	SDL_EventType"
+			],
+			[
+				"SDL_MOUSE",
+				"SDL_MOUSEMOTION	SDL_EventType"
+			],
+			[
+				"button",
+				"buttonBg"
+			],
+			[
+				"but",
+				"buttons	Button *[3]"
+			],
+			[
+				"te",
+				"textColor	SDL_Color"
+			],
+			[
+				"SDL_Re",
+				"SDL_Renderer	struct"
+			],
+			[
+				"Down",
+				"DIR_DOWN"
+			],
+			[
+				"sc",
+				"scorePosition	SDL_Rect"
+			],
+			[
+				"ins",
+				"instructionTexture	SDL_Texture *"
+			],
+			[
+				"in",
+				"instructions"
+			],
+			[
+				"score",
+				"scored	bool"
+			],
+			[
+				"ball",
+				"ballAngle	int"
+			],
+			[
+				"di",
+				"directionX	int"
+			],
+			[
+				"Dir",
+				"DIR_UP	macro"
+			],
+			[
+				"directio",
+				"directionY	int"
+			],
+			[
+				"direc",
+				"directionY	int"
+			],
+			[
+				"DI",
+				"DIR_UP	macro"
+			],
+			[
+				"DIR",
+				"DIR_DOWN	macro"
+			],
+			[
+				"cha",
+				"changeYDirection(int dir)	void"
+			],
+			[
+				"mou",
+				"mouseY	int"
+			],
+			[
+				"mo",
+				"mouseX	int"
+			],
+			[
+				"t",
+				"type	Uint32"
+			],
+			[
+				"i",
+				"isMouseOver(int x, int y)	bool"
+			],
+			[
+				"SDL_Mousemo",
+				"SDL_MOUSEMOTION	SDL_EventType"
+			],
+			[
+				"win",
+				"window	Window *"
+			],
+			[
+				"wi",
+				"winTexture	SDL_Texture *"
+			],
+			[
+				"dire",
+				"directionY	int"
+			],
+			[
+				"dir",
+				"directionY	int"
+			],
+			[
+				"fiel",
+				"fieldBounds	SDL_Rect"
+			],
+			[
+				"fie",
+				"fieldBounds	SDL_Rect"
+			],
+			[
+				"SDL_Qi",
+				"SDL_QuitSubSystem(Uint32 flags)	void"
+			],
+			[
+				"SDL_EVENTS",
+				"SDL_INIT_EVENTS	macro"
+			],
+			[
+				"SDL_Subs",
+				"SDL_QuitSubSystem(Uint32 flags)	void"
+			],
+			[
+				"SDL_INI",
+				"SDL_INIT_VIDEO	macro"
+			],
+			[
+				"SDL_INIT_",
+				"SDL_INIT_EVENTS	macro"
+			],
+			[
+				"SDLK_",
+				"SDLK_a	enum <anonymous>"
+			],
+			[
+				"rende",
+				"render(SDL_Texture *texture)	void"
+			],
+			[
+				"mess",
+				"messageBounds	SDL_Rect"
+			],
+			[
+				"SDL_QU",
+				"SDL_QueryTexture(SDL_Texture *texture, Uint32 *format, int *access, int *w, int *h)	int"
+			],
+			[
+				"SDL_TEx",
+				"SDL_Texture	struct"
+			],
+			[
+				"SDLK",
+				"SDLK_1	enum <anonymous>"
+			],
+			[
+				"SDL_Q",
+				"SDL_QUIT	SDL_EventType"
+			],
+			[
+				"ballSpee",
+				"ballSpeedY	int"
+			],
+			[
+				"ba",
+				"ballSpeedX	int"
+			],
+			[
+				"spee",
+				"ySpeed	int"
+			],
+			[
+				"move",
+				"moveDown()	void"
+			],
+			[
+				"SDL_GetMou",
+				"SDL_GetMouseState(int *x, int *y)	Uint32"
+			],
+			[
+				"butto",
+				"buttonBg	SDL_Texture *"
+			],
+			[
+				"SDL_Dest",
+				"SDL_DestroyTexture(SDL_Texture *texture)	void"
+			],
+			[
+				"ge",
+				"getBounds()	SDL_Rect"
+			],
+			[
+				"SCR",
+				"SCR_H	macro"
+			],
+			[
+				"B",
+				"Button	class"
+			],
+			[
+				"SDL_Mou",
+				"SDL_MouseMotionEvent	struct"
+			],
+			[
+				"SDL_BUT",
+				"SDL_BUTTON_LMASK	macro"
+			],
+			[
+				"SDL_QUI",
+				"SDL_QUIT	SDL_EventType"
+			],
+			[
+				"SDL_Que",
+				"SDL_QueryTexture(SDL_Texture *texture, Uint32 *format, int *access, int *w, int *h)	int"
+			],
+			[
+				"text",
+				"text2Texture(SDL_Renderer *renderer, TTF_Font *font, std::string message, SDL_Color &textColor)	SDL_Texture *"
+			],
+			[
+				"sele",
+				"selected	bool"
+			],
+			[
+				"SC",
+				"SCR_W	macro"
+			],
+			[
+				"window",
+				"Window"
+			],
+			[
+				"flick",
+				"flickCount	int"
+			],
+			[
+				"wa",
+				"waitTexture	SDL_Texture *"
+			],
+			[
+				"wai",
+				"waitTexture	SDL_Texture *"
+			],
+			[
+				"flic",
+				"flickCount	int"
+			],
+			[
+				"SDL_setTe",
+				"SDL_SetTextureAlphaMod(SDL_Texture *texture, Uint8 alpha)	int"
+			],
+			[
+				"sco",
+				"scorePosition	SDL_Rect"
+			],
+			[
+				"scor",
+				"scoreTexture	SDL_Texture *"
+			],
+			[
+				"ri",
+				"rightA	int"
+			],
+			[
+				"lPad",
+				"lPadTexture	SDL_Texture *"
+			],
+			[
+				"PA",
+				"PADDLE_SPEED	macro"
+			],
+			[
+				"tex",
+				"texture	SDL_Texture *"
+			],
+			[
+				"SDL_QUe",
+				"SDL_QueryTexture(SDL_Texture *texture, Uint32 *format, int *access, int *w, int *h)	int"
+			],
+			[
+				"IMG",
+				"IMG_Quit()	void"
+			],
+			[
+				"lPa",
+				"lPadTexture	SDL_Texture *"
+			],
+			[
+				"image",
+				"image2Texture(SDL_Renderer *renderer, std::string path)	SDL_Texture *"
+			],
+			[
+				"Scr",
+				"SCR_W	macro"
+			],
+			[
+				"IMG_INI",
+				"IMG_INIT_PNG	IMG_InitFlags"
+			],
+			[
+				"se",
+				"unselect()	void"
+			],
+			[
+				"sel",
+				"selectedPiece	Piece *"
+			],
+			[
+				"getT",
+				"getType()	PieceType"
+			],
+			[
+				"pie",
+				"selectedPieceI	int"
+			],
+			[
+				"bo",
+				"board	Board *"
+			],
+			[
+				"SDL_REnderCopyEc",
+				"SDL_RenderCopyEx(SDL_Renderer *renderer, SDL_Texture *texture, const SDL_Rect *srcrect, const SDL_Rect *dstrect, const double angle, const SDL_Point *center, const SDL_RendererFlip flip)	int"
+			],
+			[
+				"SDL_RenderC",
+				"SDL_RenderCopy(SDL_Renderer *renderer, SDL_Texture *texture, const SDL_Rect *srcrect, const SDL_Rect *dstrect)	int"
+			],
+			[
+				"SDL_SetTexture",
+				"SDL_SetTextureBlendMode(SDL_Texture *texture, SDL_BlendMode blendMode)	int"
+			],
+			[
+				"ran",
+				"random	int"
+			],
+			[
+				"je",
+				"jewelsTexturesArray	SDL_Texture *"
+			],
+			[
+				"g",
+				"getVisibility()	bool"
+			],
+			[
+				"remove",
+				"removeGem(int row, int col)	void"
+			],
+			[
+				"F",
+				"FONT_PATH	macro"
+			],
+			[
+				"sstream",
+				"stringstream	typedef"
+			],
+			[
+				"SDL_MOU",
+				"SDL_MOUSEMOTION	SDL_EventType"
+			],
+			[
+				"COLO",
+				"COLOR_UNSELECTED	macro"
+			],
+			[
+				"butt",
+				"buttonFont	TTF_Font *"
+			],
+			[
+				"SDL_INIT_E",
+				"SDL_INIT_EVERYTHING	macro"
+			],
+			[
+				"TTF_i",
+				"TTF_WasInit()	int"
+			],
+			[
+				"titl",
+				"titleColor	SDL_Color"
+			],
+			[
+				"TT",
+				"TTF_Init()	int"
+			],
+			[
+				"tit",
+				"titleBounds	SDL_Rect"
+			],
+			[
+				"SDL_Qu",
+				"SDL_QueryTexture(SDL_Texture *texture, Uint32 *format, int *access, int *w, int *h)	int"
+			],
+			[
+				"Title",
+				"titleBounds	SDL_Rect"
+			],
+			[
+				"run",
+				"runNewGame()	void"
+			],
+			[
+				"SDL_MOUS",
+				"SDL_MOUSEBUTTONDOWN	SDL_EventType"
+			],
+			[
+				"b",
+				"button	Uint8"
+			],
+			[
+				"ma",
+				"main	main()"
+			],
+			[
+				"TTF_Render",
+				"TTF_RenderText_Solid(TTF_Font *font, const char *text, SDL_Color fg)	SDL_Surface *"
+			],
+			[
+				"tmp",
+				"tmpBounds	SDL_Rect"
+			],
+			[
+				"SCREEN",
+				"SCREEN_W	macro"
+			],
+			[
+				"SCRE",
+				"SCREEN_H	macro"
+			],
+			[
+				"po",
+				"posY	int"
+			],
+			[
+				"SDL_MO",
+				"SDL_MouseButtonEvent	struct"
+			],
+			[
+				"ima",
+				"image2Texture(SDL_Renderer *renderer, std::string path)	SDL_Texture *"
+			],
+			[
+				"file",
+				"file_path"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "inc/debug.h",
+			"settings":
+			{
+				"buffer_size": 1188,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#include \"inc/MainMenu.h\"\n#include \"SDL2/SDL_mixer.h\"\n\n#define SCR_W 800\n#define SCR_H 600\n\n\nint main(int argc, char const *argv[])\n{\n	SDL_Init(SDL_INIT_EVENTS|SDL_INIT_VIDEO|SDL_INIT_AUDIO);\n	Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048);\n	IMG_Init(IMG_INIT_PNG);\n	TTF_Init();\n\n	Window *window = new Window(\"Pong\", SCR_W, SCR_H);\n	MainMenu *menu = new MainMenu(window);\n	delete window;\n	delete menu;\n\n	Mix_CloseAudio();\n	Mix_Quit();\n	SDL_VideoQuit();\n	SDL_QuitSubSystem(SDL_INIT_EVENTS);\n	SDL_QuitSubSystem(SDL_INIT_AUDIO);\n	IMG_Quit();\n	TTF_Quit();\n	SDL_Quit();\n	\n	return 0;\n}",
+			"file": "main.cpp",
+			"file_size": 648,
+			"file_write_time": 1383438581000000,
+			"settings":
+			{
+				"buffer_size": 582,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/SDL_MAKE.sublime-build",
+	"command_palette":
+	{
+		"height": 372.0,
+		"selected_items":
+		[
+			[
+				"run",
+				"Build: Run Valgrind"
+			],
+			[
+				"to",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"todo",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"valg",
+				"Build: Run Valgrind"
+			],
+			[
+				"tof",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"va",
+				"Build: Run Valgrind"
+			],
+			[
+				"val",
+				"Build: Run Valgrind"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"co",
+				"Git: Commit"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"pu",
+				"Git: Push"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git a",
+				"Git: Add..."
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"git ",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Add..."
+			],
+			[
+				"gi",
+				"Git: Commit"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"buil",
+				"Build: Run Valgrind"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"the",
+				"Themr: List themes"
+			],
+			[
+				"theme",
+				"Themr: List themes"
+			],
+			[
+				"th",
+				"Themr: List themes"
+			],
+			[
+				"them",
+				"Themr: List themes"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"themr",
+				"Themr: List themes"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 507.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/vincent/Desktop/SquareNRounds/main.cpp",
+		"/home/vincent/Workspace/C++/Games/Pong/src/Game.cpp",
+		"/home/vincent/Desktop/airstrike-pre6a-src/INSTALL",
+		"/home/vincent/Workspace/C++/Games/Pong/inc/Paddle.h",
+		"/home/vincent/Workspace/C++/Games/Pong/src/Paddle.cpp",
+		"/home/vincent/Workspace/C++/Games/Pong/src/MainMenu.cpp",
+		"/home/vincent/Workspace/C++/Games/Pong/TODO.md",
+		"/home/vincent/Workspace/C++/Games/Pong/main.cpp",
+		"/home/vincent/Workspace/C++/Games/Pong/valgrind",
+		"/home/vincent/Desktop/21_sound_effects_and_music/21_sound_effects_and_music.cpp",
+		"/home/vincent/Workspace/C++/Games/Pong/inc/Game.h",
+		"/home/vincent/Workspace/C++/Games/Pong/inc/MainMenu.h",
+		"/home/vincent/Workspace/C++/Games/Pong/Makefile",
+		"/home/vincent/Workspace/C++/Games/Pong/src/Button.cpp",
+		"/home/vincent/Workspace/C++/Games/Pong/inc/Button.h",
+		"/home/vincent/foo/test.cpp",
+		"/home/vincent/Workspace/C++/Games/Pong/src/Ball.cpp",
+		"/home/vincent/Workspace/C++/Games/Pong/inc/Ball.h",
+		"/home/vincent/Workspace/C++/Games/Pong/LICENSE",
+		"/home/vincent/Workspace/C++/Games/Pong/bin/.placeholder",
+		"/home/vincent/.bashrc",
+		"/home/vincent/Desktop/VERSION",
+		"/home/vincent/Workspace/C++/Games/Pong/src/RenderableObject.cpp",
+		"/home/vincent/Workspace/C++/Games/Pong/inc/RenderableObject.h",
+		"/home/vincent/Workspace/C++/Games/Pong/field.png",
+		"/home/vincent/Workspace/C++/Games/Pong/launcher.sh",
+		"/home/vincent/Programs/cacaoweb/init.sh",
+		"/home/vincent/Dropbox/.configurations/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/vincent/Dropbox/.configurations/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/vincent/Dropbox/Workspace/C++/Games/Pong/.gitignore",
+		"/home/vincent/Workspace/C++/Games/Pong/.gitignore",
+		"/home/vincent/Dropbox/Workspace/C++/Games/Pong/bin/.placeholder",
+		"/home/vincent/Workspace/C++/Games/Pong/src/ImageUtils.cpp",
+		"/home/vincent/Workspace/C++/Games/Pong/inc/ImageUtils.h",
+		"/home/vincent/Workspace/C++/Games/Pong/src/Window.cpp",
+		"/home/vincent/Desktop/SFML/Makefile",
+		"/home/vincent/Workspace/C++/Pong/Makefile",
+		"/home/vincent/Workspace/C++/Pong/valgrind",
+		"/home/vincent/foo/openal-soft-1.15.1/XCompile.txt",
+		"/home/vincent/Dropbox/.configurations/.config/sublime-text-2/Packages/User/SFML_MAKE.sublime-build",
+		"/home/vincent/Desktop/main.cpp",
+		"/home/vincent/foo/openal-soft-1.15.1/README",
+		"/home/vincent/Workspace/C++/Pong/src/Game.cpp",
+		"/home/vincent/Workspace/C++/Pong/src/MainMenu.cpp",
+		"/home/vincent/Dropbox/.configurations/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/vincent/Workspace/C++/Pong/inc/Sprite.h",
+		"/home/vincent/Workspace/C++/Pong/src/ImageUtils.cpp",
+		"/home/vincent/Workspace/C++/Pong/src/Sprite.cpp",
+		"/home/vincent/Workspace/C++/Pong/inc/ImageUtils.h",
+		"/home/vincent/Workspace/C++/Pong/TODO.md",
+		"/home/vincent/Workspace/C++/Pong/inc/MainMenu.h",
+		"/home/vincent/Dropbox/Workspace/C++/Pong/launcher.sh",
+		"/home/vincent/Workspace/C++/Pong/inc/Game.h",
+		"/home/vincent/Workspace/C++/Pong/src/Paddle.cpp",
+		"/home/vincent/Workspace/C++/Pong/inc/Ball.h",
+		"/home/vincent/Workspace/C++/Pong/src/Ball.cpp",
+		"/home/vincent/Workspace/C++/Pong/inc/Paddle.h",
+		"/home/vincent/Workspace/C++/Pong/src/Button.cpp",
+		"/home/vincent/Workspace/C++/Pong/inc/RenderableObject.h",
+		"/home/vincent/Workspace/C++/Pong/inc/Button.h",
+		"/home/vincent/Workspace/C++/Pong/README.md",
+		"/home/vincent/Workspace/C++/Pong/main.cpp",
+		"/home/vincent/Workspace/C++/Bejeweled/inc/Button.h",
+		"/home/vincent/Workspace/C++/Pong/src/MainMenuù",
+		"/home/vincent/Workspace/C++/Pong/Pong.sublime-workspace",
+		"/home/vincent/Workspace/C++/Pong/Pong.sublime-project",
+		"/home/vincent/Workspace/C++/Pong/TODO",
+		"/home/vincent/Workspace/C++/Pong/inc/Window.h",
+		"/home/vincent/Workspace/C++/Pong/src/Window.cpp",
+		"/home/vincent/Dropbox/.configurations/.config/sublime-text-2/Packages/User/MakeC++.sublime-build",
+		"/home/vincent/Desktop/Pong/main.cpp",
+		"/home/vincent/Desktop/Pong/Makefile",
+		"/home/vincent/Desktop/Pong/valgrind",
+		"/home/vincent/Desktop/Pong/src/ImageUtils.cpp",
+		"/home/vincent/Desktop/Pong/inc/Ball.h",
+		"/home/vincent/Desktop/Pong/inc/Paddle.h",
+		"/home/vincent/Desktop/Pong/src/Paddle.cpp",
+		"/home/vincent/Desktop/Pong/inc/RenderableObject.h",
+		"/home/vincent/Desktop/Pong/src/Ball.cpp",
+		"/home/vincent/Desktop/Pong/inc/ImageUtils.h",
+		"/home/vincent/Desktop/Pong/src/RenderableObject.cpp",
+		"/home/vincent/Desktop/Pong/inc/Window.h",
+		"/home/vincent/Desktop/Pong/src/Window.cpp",
+		"/home/vincent/Workspace/C++/Pong/.gitignore",
+		"/home/vincent/Desktop/Pong/Pong.sublime-workspace",
+		"/home/vincent/Workspace/C++/Bejeweled/Makefile",
+		"/home/vincent/foo/freegemas-read-only/src/state.cpp",
+		"/home/vincent/foo/freegemas-read-only/src/stateGame.cpp",
+		"/home/vincent/foo/freegemas-read-only/include/state.h",
+		"/home/vincent/Desktop/sdl-gweled/sge_core.c",
+		"/home/vincent/Workspace/C++/Bejeweled/src/Game.cpp",
+		"/home/vincent/Workspace/C++/Bejeweled/inc/Game.h",
+		"/home/vincent/Workspace/C++/Bejeweled/src/Board.cpp",
+		"/home/vincent/Workspace/C++/Bejeweled/src/Piece.cpp",
+		"/etc/polkit-1/localauthority/50-local.d/com.ubuntu.desktop.pkla",
+		"/home/vincent/foo/freegemas-read-only/src/animation.cpp",
+		"/home/vincent/Workspace/C++/Bejeweled/main.cpp",
+		"/home/vincent/Workspace/C++/Bejeweled/inc/Piece.h",
+		"/home/vincent/Workspace/C++/Bejeweled/inc/Board.h",
+		"/home/vincent/Workspace/C++/Bejeweled/src/MainMenu.cpp",
+		"/home/vincent/Workspace/C++/Bejeweled/src/Window.cpp",
+		"/home/vincent/Workspace/C++/SDL_Tutorials/13_alpha_blending/13_alpha_blending.cpp",
+		"/home/vincent/Desktop/testPointers.cpp",
+		"/home/vincent/Workspace/C++/Bejeweled/src/Button.cpp",
+		"/home/vincent/Workspace/C++/Bejeweled/inc/MainMenu.h",
+		"/home/vincent/Workspace/C++/Bejeweled/src/ImageUtils.cpp",
+		"/home/vincent/Workspace/C++/Bejeweled/inc/ImageUtils.h",
+		"/home/vincent/Workspace/C++/CardGame/main.cpp",
+		"/home/vincent/Workspace/C++/Bejeweled/inc/BoardManager.h",
+		"/home/vincent/Workspace/C++/Bejeweled/src/BoardManager.cpp",
+		"/home/vincent/Workspace/C++/Bejeweled/Bejeweled.sublime-project",
+		"/home/vincent/Workspace/C++/Bejeweled/inc/Window.h",
+		"/home/vincent/Workspace/C++/Bejeweled/inc/debug.h",
+		"/home/vincent/Workspace/C++/Bejeweled/inc/PieceType.h",
+		"/home/vincent/Dropbox/.configurations/.config/sublime-text-2/Packages/GoToDoc/Default (Linux).sublime-keymap",
+		"/home/vincent/Dropbox/.configurations/.config/sublime-text-2/Packages/User/TodoManager.sublime-settings",
+		"/home/vincent/Dropbox/.configurations/.config/sublime-text-2/Packages/TodoManager/TodoManager.sublime-settings",
+		"/home/vincent/Desktop/gemgem.py",
+		"/home/vincent/Workspace/C++/Pong/inc/Debug.h",
+		"/home/vincent/Desktop/BackGround.jpg",
+		"/home/vincent/Workspace/C++/Attempt_002/Makefile",
+		"/home/vincent/Desktop/sbackup-0.11.6/INSTALL",
+		"/home/vincent/Workspace/C++/Bejeweled/bin/debug",
+		"/home/vincent/Workspace/C++/Bejeweled/bin/bejeweled-debug",
+		"/home/vincent/Workspace/C++/SDL/WindowTemplate/src/Window.cpp",
+		"/home/vincent/Workspace/C++/SDL/WindowTemplate/inc/Window.h",
+		"/home/vincent/Dropbox/.configurations/.config/sublime-text-2/Packages/Terminal/Terminal.sublime-settings",
+		"/home/vincent/Workspace/C++/debug.h"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/home/vincent/Workspace/C++/Bejeweled/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"8",
+			"21_sound_effects_and_music/",
+			"0",
+			"SDL_Texture",
+			"std::",
+			"<< ",
+			"std::",
+			"ball->changeY",
+			"ball->cha",
+			"ball->set",
+			"ball->",
+			"canChangeDir",
+			"(){\n",
+			"logIn",
+			"ball->changeY",
+			"retryBtn",
+			"render",
+			"exitBtn",
+			"scorePos",
+			"();\n",
+			"w",
+			";}\n",
+			"    \n",
+			"){",
+			"if(difficulty == NONE) crPad->follow(ball->getBounds().y, 0);",
+			"buttonbg",
+			"Game::",
+			"();\n",
+			"){",
+			"ignore",
+			"update",
+			"rPad",
+			"->y",
+			"->w",
+			"->x",
+			"){\n",
+			"tex",
+			"MovableO",
+			"MovableObject",
+			"();}",
+			"){\n",
+			"Select",
+			"select",
+			"select()",
+			".setaL",
+			"fadeOut",
+			"Textures",
+			"mouse.",
+			"mouse.y",
+			"mouse.x",
+			"buttons[0]->getBounds()",
+			"4",
+			"x",
+			"ImageUtils",
+			"getRenderer",
+			"i",
+			"iMatches",
+			"BG_PATH",
+			"tmpBounds",
+			"->get",
+			"3",
+			"1",
+			"i",
+			"\"M",
+			"ctrl+t",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"foo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "inc/debug.h",
+					"settings":
+					{
+						"buffer_size": 1188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.cpp",
+					"settings":
+					{
+						"buffer_size": 582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 112.0
+	},
+	"output.exec":
+	{
+		"height": 189.0
+	},
+	"output.git":
+	{
+		"height": 230.0
+	},
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Makefile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true
+}

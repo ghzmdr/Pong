@@ -1,0 +1,320 @@
+==11990== Memcheck, a memory error detector
+==11990== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==11990== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==11990== Command: ./bin/debug
+==11990== Parent PID: 3369
+==11990== 
+==11990== Syscall param ioctl(generic) points to uninitialised byte(s)
+==11990==    at 0x5DA6C67: ioctl (syscall-template.S:82)
+==11990==    by 0x9A702B7: drmIoctl (in /usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0)
+==11990==    by 0x9A725EB: drmCommandWriteRead (in /usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0)
+==11990==    by 0x9CA5943: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+==11990==    by 0x9CA5A07: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+==11990==    by 0x9CEB0AA: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+==11990==    by 0x9010DEE: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2)
+==11990==    by 0x8FEC378: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2)
+==11990==    by 0x8FE8A17: ??? (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2)
+==11990==    by 0x8FE8D0C: glXChooseVisual (in /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2)
+==11990==    by 0x4EECBE1: X11_GL_InitExtensions (SDL_x11opengl.c:525)
+==11990==    by 0x4EED5D3: X11_GL_LoadLibrary (SDL_x11opengl.c:218)
+==11990==  Address 0x7fefffcc4 is on thread 1's stack
+==11990==  Uninitialised value was created by a stack allocation
+==11990==    at 0x9CA5920: ??? (in /usr/lib/x86_64-linux-gnu/dri/i965_dri.so)
+==11990== 
+==11990== Conditional jump or move depends on uninitialised value(s)
+==11990==    at 0xA407712: _mesa_glsl_parse_state::_mesa_glsl_parse_state(gl_context*, unsigned int, void*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA431179: ??? (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA43132F: ??? (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA431890: ??? (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA3FD224: ast_function_expression::hir(exec_list*, _mesa_glsl_parse_state*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA40179C: ast_expression::hir(exec_list*, _mesa_glsl_parse_state*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA4001F1: ast_expression::hir(exec_list*, _mesa_glsl_parse_state*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA402392: ast_expression_statement::hir(exec_list*, _mesa_glsl_parse_state*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA4023DE: ast_compound_statement::hir(exec_list*, _mesa_glsl_parse_state*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA40400E: ast_function_definition::hir(exec_list*, _mesa_glsl_parse_state*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA3FF686: _mesa_ast_to_hir(exec_list*, _mesa_glsl_parse_state*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA111C9F: _mesa_glsl_compile_shader (in /usr/lib/x86_64-linux-gnu/dri/libdricore.so)
+==11990==  Uninitialised value was created by a stack allocation
+==11990==    at 0xA43111C: ??? (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990== 
+==11990== Conditional jump or move depends on uninitialised value(s)
+==11990==    at 0xA407712: _mesa_glsl_parse_state::_mesa_glsl_parse_state(gl_context*, unsigned int, void*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA431179: ??? (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA43132F: ??? (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA4316E0: ??? (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA3FD224: ast_function_expression::hir(exec_list*, _mesa_glsl_parse_state*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA40179C: ast_expression::hir(exec_list*, _mesa_glsl_parse_state*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA4001F1: ast_expression::hir(exec_list*, _mesa_glsl_parse_state*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA402392: ast_expression_statement::hir(exec_list*, _mesa_glsl_parse_state*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA4023DE: ast_compound_statement::hir(exec_list*, _mesa_glsl_parse_state*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA40400E: ast_function_definition::hir(exec_list*, _mesa_glsl_parse_state*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA3FF686: _mesa_ast_to_hir(exec_list*, _mesa_glsl_parse_state*) (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990==    by 0xA111C9F: _mesa_glsl_compile_shader (in /usr/lib/x86_64-linux-gnu/dri/libdricore.so)
+==11990==  Uninitialised value was created by a stack allocation
+==11990==    at 0xA43111C: ??? (in /usr/lib/x86_64-linux-gnu/dri/libglsl.so)
+==11990== 
+==11990== Conditional jump or move depends on uninitialised value(s)
+==11990==    at 0x69A84E0: inflateReset2 (in /lib/x86_64-linux-gnu/libz.so.1.2.3.4)
+==11990==    by 0x69A85D8: inflateInit2_ (in /lib/x86_64-linux-gnu/libz.so.1.2.3.4)
+==11990==    by 0x6BC70D3: png_create_read_struct_2 (in /lib/x86_64-linux-gnu/libpng12.so.0.46.0)
+==11990==    by 0x6BC7296: png_create_read_struct (in /lib/x86_64-linux-gnu/libpng12.so.0.46.0)
+==11990==    by 0x51320F6: IMG_LoadPNG_RW (IMG_png.c:374)
+==11990==    by 0x512BB3C: IMG_LoadTyped_RW (IMG.c:193)
+==11990==    by 0x512BD38: IMG_LoadTexture (IMG.c:210)
+==11990==    by 0x4050F9: image2Texture(SDL_Renderer*, std::string) (ImageUtils.cpp:5)
+==11990==    by 0x4055C5: MainMenu::initResources() (MainMenu.cpp:21)
+==11990==    by 0x405442: MainMenu::MainMenu(Window*) (MainMenu.cpp:4)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990==  Uninitialised value was created by a heap allocation
+==11990==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11990==    by 0x6BD24CC: png_malloc (in /lib/x86_64-linux-gnu/libpng12.so.0.46.0)
+==11990==    by 0x6BBAB95: ??? (in /lib/x86_64-linux-gnu/libpng12.so.0.46.0)
+==11990==    by 0x69A85B6: inflateInit2_ (in /lib/x86_64-linux-gnu/libz.so.1.2.3.4)
+==11990==    by 0x6BC70D3: png_create_read_struct_2 (in /lib/x86_64-linux-gnu/libpng12.so.0.46.0)
+==11990==    by 0x6BC7296: png_create_read_struct (in /lib/x86_64-linux-gnu/libpng12.so.0.46.0)
+==11990==    by 0x51320F6: IMG_LoadPNG_RW (IMG_png.c:374)
+==11990==    by 0x512BB3C: IMG_LoadTyped_RW (IMG.c:193)
+==11990==    by 0x512BD38: IMG_LoadTexture (IMG.c:210)
+==11990==    by 0x4050F9: image2Texture(SDL_Renderer*, std::string) (ImageUtils.cpp:5)
+==11990==    by 0x4055C5: MainMenu::initResources() (MainMenu.cpp:21)
+==11990==    by 0x405442: MainMenu::MainMenu(Window*) (MainMenu.cpp:4)
+==11990== 
+==11990== Conditional jump or move depends on uninitialised value(s)
+==11990==    at 0x405EC1: MainMenu::handleInput() (MainMenu.cpp:45)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990==  Uninitialised value was created by a stack allocation
+==11990==    at 0x405E92: MainMenu::handleInput() (MainMenu.cpp:42)
+==11990== 
+==11990== Conditional jump or move depends on uninitialised value(s)
+==11990==    at 0x405EC8: MainMenu::handleInput() (MainMenu.cpp:45)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990==  Uninitialised value was created by a stack allocation
+==11990==    at 0x405E92: MainMenu::handleInput() (MainMenu.cpp:42)
+==11990== 
+==11990== Conditional jump or move depends on uninitialised value(s)
+==11990==    at 0x405ECF: MainMenu::handleInput() (MainMenu.cpp:45)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990==  Uninitialised value was created by a stack allocation
+==11990==    at 0x405E92: MainMenu::handleInput() (MainMenu.cpp:42)
+==11990== 
+==11990== Invalid read of size 8
+==11990==    at 0x4E7A83D: SDL_DestroyTexture (SDL_render.c:1806)
+==11990==    by 0x4072F1: RenderableObject::~RenderableObject() (RenderableObject.cpp:12)
+==11990==    by 0x402009: Button::~Button() (Button.cpp:14)
+==11990==    by 0x40205D: Button::~Button() (Button.cpp:16)
+==11990==    by 0x406192: MainMenu::chooseDifficulty() (MainMenu.cpp:90)
+==11990==    by 0x405F72: MainMenu::handleClick(SDL_MouseButtonEvent) (MainMenu.cpp:60)
+==11990==    by 0x405F09: MainMenu::handleInput() (MainMenu.cpp:50)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990==  Address 0x12b48990 is 0 bytes inside a block of size 120 free'd
+==11990==    at 0x4C2A82E: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11990==    by 0x4072F1: RenderableObject::~RenderableObject() (RenderableObject.cpp:12)
+==11990==    by 0x402009: Button::~Button() (Button.cpp:14)
+==11990==    by 0x40205D: Button::~Button() (Button.cpp:16)
+==11990==    by 0x406192: MainMenu::chooseDifficulty() (MainMenu.cpp:90)
+==11990==    by 0x405F72: MainMenu::handleClick(SDL_MouseButtonEvent) (MainMenu.cpp:60)
+==11990==    by 0x405F09: MainMenu::handleInput() (MainMenu.cpp:50)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990== 
+==11990== Conditional jump or move depends on uninitialised value(s)
+==11990==    at 0x402F6D: Game::handleInput() (Game.cpp:81)
+==11990==    by 0x402256: Game::Game(Window*, Mode, Difficulty) (Game.cpp:13)
+==11990==    by 0x405FAD: MainMenu::handleClick(SDL_MouseButtonEvent) (MainMenu.cpp:62)
+==11990==    by 0x405F09: MainMenu::handleInput() (MainMenu.cpp:50)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990==  Uninitialised value was created by a stack allocation
+==11990==    at 0x402F1A: Game::handleInput() (Game.cpp:74)
+==11990== 
+==11990== Conditional jump or move depends on uninitialised value(s)
+==11990==    at 0x402F74: Game::handleInput() (Game.cpp:81)
+==11990==    by 0x402256: Game::Game(Window*, Mode, Difficulty) (Game.cpp:13)
+==11990==    by 0x405FAD: MainMenu::handleClick(SDL_MouseButtonEvent) (MainMenu.cpp:62)
+==11990==    by 0x405F09: MainMenu::handleInput() (MainMenu.cpp:50)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990==  Uninitialised value was created by a stack allocation
+==11990==    at 0x402F1A: Game::handleInput() (Game.cpp:74)
+==11990== 
+==11990== Conditional jump or move depends on uninitialised value(s)
+==11990==    at 0x403448: Game::waitForPlayers() (Game.cpp:126)
+==11990==    by 0x402F50: Game::handleInput() (Game.cpp:76)
+==11990==    by 0x402256: Game::Game(Window*, Mode, Difficulty) (Game.cpp:13)
+==11990==    by 0x405FAD: MainMenu::handleClick(SDL_MouseButtonEvent) (MainMenu.cpp:62)
+==11990==    by 0x405F09: MainMenu::handleInput() (MainMenu.cpp:50)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990==  Uninitialised value was created by a stack allocation
+==11990==    at 0x40317E: Game::waitForPlayers() (Game.cpp:104)
+==11990== 
+==11990== Conditional jump or move depends on uninitialised value(s)
+==11990==    at 0x40347E: Game::waitForPlayers() (Game.cpp:127)
+==11990==    by 0x402F50: Game::handleInput() (Game.cpp:76)
+==11990==    by 0x402256: Game::Game(Window*, Mode, Difficulty) (Game.cpp:13)
+==11990==    by 0x405FAD: MainMenu::handleClick(SDL_MouseButtonEvent) (MainMenu.cpp:62)
+==11990==    by 0x405F09: MainMenu::handleInput() (MainMenu.cpp:50)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990==  Uninitialised value was created by a stack allocation
+==11990==    at 0x40317E: Game::waitForPlayers() (Game.cpp:104)
+==11990== 
+==11990== Conditional jump or move depends on uninitialised value(s)
+==11990==    at 0x404654: Game::displayGameOver() (Game.cpp:258)
+==11990==    by 0x403D0C: Game::updateLogic() (Game.cpp:184)
+==11990==    by 0x402262: Game::Game(Window*, Mode, Difficulty) (Game.cpp:14)
+==11990==    by 0x405FAD: MainMenu::handleClick(SDL_MouseButtonEvent) (MainMenu.cpp:62)
+==11990==    by 0x405F09: MainMenu::handleInput() (MainMenu.cpp:50)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990==  Uninitialised value was created by a stack allocation
+==11990==    at 0x40417E: Game::displayGameOver() (Game.cpp:231)
+==11990== 
+==11990== Conditional jump or move depends on uninitialised value(s)
+==11990==    at 0x4046C4: Game::displayGameOver() (Game.cpp:263)
+==11990==    by 0x403D0C: Game::updateLogic() (Game.cpp:184)
+==11990==    by 0x402262: Game::Game(Window*, Mode, Difficulty) (Game.cpp:14)
+==11990==    by 0x405FAD: MainMenu::handleClick(SDL_MouseButtonEvent) (MainMenu.cpp:62)
+==11990==    by 0x405F09: MainMenu::handleInput() (MainMenu.cpp:50)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990==  Uninitialised value was created by a stack allocation
+==11990==    at 0x40417E: Game::displayGameOver() (Game.cpp:231)
+==11990== 
+==11990== Conditional jump or move depends on uninitialised value(s)
+==11990==    at 0x4047F3: Game::displayGameOver() (Game.cpp:274)
+==11990==    by 0x403D0C: Game::updateLogic() (Game.cpp:184)
+==11990==    by 0x402262: Game::Game(Window*, Mode, Difficulty) (Game.cpp:14)
+==11990==    by 0x405FAD: MainMenu::handleClick(SDL_MouseButtonEvent) (MainMenu.cpp:62)
+==11990==    by 0x405F09: MainMenu::handleInput() (MainMenu.cpp:50)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990==  Uninitialised value was created by a stack allocation
+==11990==    at 0x40417E: Game::displayGameOver() (Game.cpp:231)
+==11990== 
+==11990== Invalid read of size 8
+==11990==    at 0x4E7A83D: SDL_DestroyTexture (SDL_render.c:1806)
+==11990==    by 0x4072F1: RenderableObject::~RenderableObject() (RenderableObject.cpp:12)
+==11990==    by 0x406FA8: Paddle::~Paddle() (Paddle.cpp:17)
+==11990==    by 0x406FDB: Paddle::~Paddle() (Paddle.cpp:19)
+==11990==    by 0x402361: Game::~Game() (Game.cpp:28)
+==11990==    by 0x405FE0: MainMenu::handleClick(SDL_MouseButtonEvent) (MainMenu.cpp:65)
+==11990==    by 0x405F09: MainMenu::handleInput() (MainMenu.cpp:50)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990==  Address 0x131c2e30 is 0 bytes inside a block of size 120 free'd
+==11990==    at 0x4C2A82E: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11990==    by 0x4072F1: RenderableObject::~RenderableObject() (RenderableObject.cpp:12)
+==11990==    by 0x406FA8: Paddle::~Paddle() (Paddle.cpp:17)
+==11990==    by 0x406FDB: Paddle::~Paddle() (Paddle.cpp:19)
+==11990==    by 0x402335: Game::~Game() (Game.cpp:27)
+==11990==    by 0x405FE0: MainMenu::handleClick(SDL_MouseButtonEvent) (MainMenu.cpp:65)
+==11990==    by 0x405F09: MainMenu::handleInput() (MainMenu.cpp:50)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990== 
+==11990== Invalid read of size 8
+==11990==    at 0x4E7A83D: SDL_DestroyTexture (SDL_render.c:1806)
+==11990==    by 0x4054B9: MainMenu::~MainMenu() (MainMenu.cpp:14)
+==11990==    by 0x4077AE: main (main.cpp:19)
+==11990==  Address 0x12b38ec0 is 0 bytes inside a block of size 120 free'd
+==11990==    at 0x4C2A82E: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11990==    by 0x4E7AFDC: SDL_DestroyRenderer (SDL_render.c:1845)
+==11990==    by 0x4074CF: Window::~Window() (Window.cpp:20)
+==11990==    by 0x407795: main (main.cpp:18)
+==11990== 
+==11990== Invalid read of size 8
+==11990==    at 0x4E7A83D: SDL_DestroyTexture (SDL_render.c:1806)
+==11990==    by 0x401FFD: Button::~Button() (Button.cpp:15)
+==11990==    by 0x40205D: Button::~Button() (Button.cpp:16)
+==11990==    by 0x405504: MainMenu::~MainMenu() (MainMenu.cpp:15)
+==11990==    by 0x4077AE: main (main.cpp:19)
+==11990==  Address 0xc578a60 is 0 bytes inside a block of size 120 free'd
+==11990==    at 0x4C2A82E: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11990==    by 0x4E7AFDC: SDL_DestroyRenderer (SDL_render.c:1845)
+==11990==    by 0x4074CF: Window::~Window() (Window.cpp:20)
+==11990==    by 0x407795: main (main.cpp:18)
+==11990== 
+==11990== 
+==11990== HEAP SUMMARY:
+==11990==     in use at exit: 99,213 bytes in 602 blocks
+==11990==   total heap usage: 116,998 allocs, 116,396 frees, 267,465,063 bytes allocated
+==11990== 
+==11990== 12 bytes in 2 blocks are definitely lost in loss record 7 of 142
+==11990==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11990==    by 0x5D42D81: strdup (strdup.c:43)
+==11990==    by 0x7246A0D: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==11990==    by 0x7247923: _XimSetICValueData (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==11990==    by 0x7242FDE: _XimLocalCreateIC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==11990==    by 0x7228A92: XCreateIC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==11990==    by 0x4EF01BA: SetupWindowData (SDL_x11window.c:240)
+==11990==    by 0x4EF05F0: X11_CreateWindow (SDL_x11window.c:553)
+==11990==    by 0x4ED7F68: SDL_CreateWindow (SDL_video.c:1268)
+==11990==    by 0x4073AB: Window::Window(std::string, int, int, int, int) (Window.cpp:9)
+==11990==    by 0x407748: main (main.cpp:16)
+==11990== 
+==11990== 12 bytes in 2 blocks are definitely lost in loss record 8 of 142
+==11990==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11990==    by 0x5D42D81: strdup (strdup.c:43)
+==11990==    by 0x7246A0D: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==11990==    by 0x7247923: _XimSetICValueData (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==11990==    by 0x7242FDE: _XimLocalCreateIC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==11990==    by 0x7228A92: XCreateIC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==11990==    by 0x4EF01BA: SetupWindowData (SDL_x11window.c:240)
+==11990==    by 0x4EF05F0: X11_CreateWindow (SDL_x11window.c:553)
+==11990==    by 0x4ED66B4: SDL_RecreateWindow (SDL_video.c:1363)
+==11990==    by 0x4E7F637: GL_CreateRenderer (SDL_render_gl.c:387)
+==11990==    by 0x4E79050: SDL_CreateRenderer (SDL_render.c:250)
+==11990==    by 0x407423: Window::Window(std::string, int, int, int, int) (Window.cpp:12)
+==11990== 
+==11990== 12 bytes in 2 blocks are definitely lost in loss record 9 of 142
+==11990==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11990==    by 0x5D42D81: strdup (strdup.c:43)
+==11990==    by 0x7246A0D: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==11990==    by 0x7247923: _XimSetICValueData (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==11990==    by 0x7242FDE: _XimLocalCreateIC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==11990==    by 0x7228A92: XCreateIC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==11990==    by 0x4EF01BA: SetupWindowData (SDL_x11window.c:240)
+==11990==    by 0x4EF05F0: X11_CreateWindow (SDL_x11window.c:553)
+==11990==    by 0x4ED7F68: SDL_CreateWindow (SDL_video.c:1268)
+==11990==    by 0x4ED7D47: SDL_VideoInit (SDL_video.c:174)
+==11990==    by 0x4E44D6E: SDL_InitSubSystem (SDL.c:170)
+==11990==    by 0x4076C3: main (main.cpp:10)
+==11990== 
+==11990== 24 bytes in 1 blocks are definitely lost in loss record 22 of 142
+==11990==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11990==    by 0x7B4706D: XextCreateExtension (in /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0)
+==11990==    by 0x856F2A4: ???
+==11990==    by 0x8571DC5: ???
+==11990==    by 0x4EF1EFD: X11_InitXinput2 (SDL_x11xinput2.c:94)
+==11990==    by 0x4EEECD7: X11_VideoInit (SDL_x11video.c:547)
+==11990==    by 0x4ED7B9D: SDL_VideoInit (SDL_video.c:504)
+==11990==    by 0x4E44D6E: SDL_InitSubSystem (SDL.c:170)
+==11990==    by 0x4076C3: main (main.cpp:10)
+==11990== 
+==11990== 99 bytes in 3 blocks are definitely lost in loss record 91 of 142
+==11990==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==11990==    by 0x7201F17: XGetWindowProperty (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==11990==    by 0x4EE7A96: X11_DispatchEvent (SDL_x11events.c:532)
+==11990==    by 0x4EE84F9: X11_PumpEvents (SDL_x11events.c:982)
+==11990==    by 0x4E69E76: SDL_PumpEvents (SDL_events.c:402)
+==11990==    by 0x4E69EDC: SDL_WaitEventTimeout (SDL_events.c:435)
+==11990==    by 0x405EB8: MainMenu::handleInput() (MainMenu.cpp:44)
+==11990==    by 0x405450: MainMenu::MainMenu(Window*) (MainMenu.cpp:6)
+==11990==    by 0x407780: main (main.cpp:17)
+==11990== 
+==11990== LEAK SUMMARY:
+==11990==    definitely lost: 159 bytes in 10 blocks
+==11990==    indirectly lost: 0 bytes in 0 blocks
+==11990==      possibly lost: 0 bytes in 0 blocks
+==11990==    still reachable: 99,054 bytes in 592 blocks
+==11990==         suppressed: 0 bytes in 0 blocks
+==11990== Reachable blocks (those to which a pointer was found) are not shown.
+==11990== To see them, rerun with: --leak-check=full --show-reachable=yes
+==11990== 
+==11990== For counts of detected and suppressed errors, rerun with: -v
+==11990== ERROR SUMMARY: 36514 errors from 23 contexts (suppressed: 9 from 4)
